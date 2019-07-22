@@ -7,3 +7,13 @@ This ia an pytorch implemention for face alignment with stacked hourglass networ
 Pytorch >= 0.4
 
 Python3
+
+## Training and testing 
+* In our experiments, we used stack=2 input resolution=256
+```sh
+python main.py 
+```
+* Run evaluation to get val score.
+```sh
+python main.py --phase test
+```
