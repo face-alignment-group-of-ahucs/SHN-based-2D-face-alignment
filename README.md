@@ -11,8 +11,6 @@ This ia an pytorch implemention for face alignment with stacked hourglass networ
 Python3
 
 ## data
-#### Data
-
 1. You need to download the annotations files which have been processed from [OneDrive](https://1drv.ms/u/s!AiWjZ1LamlxzdmYbSkHpPYhI8Ms).
 
 2. You need to download images (300W, AFLW, WFLW) from official websites and then put them into `images` folder for each dataset.
