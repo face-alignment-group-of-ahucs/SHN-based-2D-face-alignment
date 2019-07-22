@@ -1,5 +1,8 @@
 # SHN-based-2D-Face-Alignment-Algorithms
-SHN-based (Stacked Hourglass Network) methods for 2D face alignment
+
+Stacked Hourglass Network for 2D face alignment
+
+This ia an pytorch implemention for face alignment with stacked hourglass network (SHN). 
 
 Pytorch >= 0.4
 
