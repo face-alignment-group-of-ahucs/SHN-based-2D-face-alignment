@@ -22,7 +22,7 @@ This ia a PyTorch implemention for face alignment with stacked hourglass network
 
 * `Python 3`
 
-* `Install Pytorch >= 0.4 following the official instructions (https://pytorch.org/).`
+* `Install PyTorch >= 0.4 following the official instructions (https://pytorch.org/).`
 
 ## data
 
