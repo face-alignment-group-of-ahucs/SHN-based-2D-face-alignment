@@ -1,6 +1,6 @@
 # Stacked Hourglass Network for 2D face alignment
 
-This ia a PyTorch implemention for face alignment with stacked hourglass network (SHN). We use the normalized mean errors (NME), cumulative errors distribution (CED) curve, area under the curve (AUC), and failure rate to measure the landmark location error. This work (SHN-based) has achieved outstanding performance on 300-W and WFLW datasets. 
+This ia a PyTorch implemention for face alignment with stacked hourglass network (SHN). We use the normalized mean errors (NME), cumulative errors distribution (CED) curve, area under the curve (AUC), and failure rate to measure the landmark location performance. This work (SHN-based) has achieved outstanding performance on 300-W and WFLW datasets. 
 
 <div align=center><img src="https://github.com/face-alignment-group-of-ahucs/SHN-based-2D-face-alignment/blob/master/image/1.jpg" width="150" height="225" /><img src="https://github.com/face-alignment-group-of-ahucs/SHN-based-2D-face-alignment/blob/master/image/2.jpg" width="150" height="225" /><img src="https://github.com/face-alignment-group-of-ahucs/SHN-based-2D-face-alignment/blob/master/image/3.jpg" width="150" height="225" /><img src="https://github.com/face-alignment-group-of-ahucs/SHN-based-2D-face-alignment/blob/master/image/4.jpg" width="150" height="225" /><img src="https://github.com/face-alignment-group-of-ahucs/SHN-based-2D-face-alignment/blob/master/image/5.jpg" width="150" height="225" /></div>
 
@@ -22,7 +22,7 @@ This ia a PyTorch implemention for face alignment with stacked hourglass network
 
 * `Python 3`
 
-* `Install Pytorch >= 0.4 following the [official instructions](https://pytorch.org/)`
+* `Install Pytorch >= 0.4 following the official instructions (https://pytorch.org/).`
 
 ## data
 
@@ -33,11 +33,10 @@ Your `data` directory should look like this:
 ````
 SHN-based-2D-face-alignment
 -- data
-   |-- 300w
-   |   |-- afw
-   |   |-- helen
-   |   |-- ibug
-   |   |-- lfpw
+   |-- afw
+   |-- helen
+   |-- ibug
+   |-- lfpw
 ````  
 
 ## Training and testing 
