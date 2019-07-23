@@ -8,13 +8,13 @@ This ia a PyTorch implemention for face alignment with stacked hourglass network
 
 ### 300W
 
-| NME | *common*| *challenge* | *full* | *test*|
+| NME(inter-pupil) | *common*| *challenge* | *full* | *test*|
 |:--:|:--:|:--:|:--:|:--:|
 |2-HG-flip | 4.0 | - | - | - |
 
 ### WFLW
 
-| NME |  *test* | *pose* | *illumination* | *occlution* | *blur* | *makeup* | *expression* |
+| NME(inter-ocular) |  *test* | *pose* | *illumination* | *occlution* | *blur* | *makeup* | *expression* |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |2-HG | 5.41 | 10.03 | 5.56 | 5.54 | 6.03 | 7.00 | 6.25 |
 
