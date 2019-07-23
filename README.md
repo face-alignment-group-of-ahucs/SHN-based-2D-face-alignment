@@ -1,28 +1,37 @@
 # Stacked Hourglass Network for 2D face alignment
 
-This ia a pytorch implemention for face alignment with stacked hourglass network (SHN). We use the normalized mean errors (NME), cumulative errors distribution (CED) curve, area under the curve (AUC), and failure rate to measure the landmark location error.
+This ia a PyTorch implemention for face alignment with stacked hourglass network (SHN). We use the normalized mean errors (NME), cumulative errors distribution (CED) curve, area under the curve (AUC), and failure rate to measure the landmark location error. This code (SHN-based) have achieved outstanding performance on 300-W and WFLW datasets. 
 
-<div align=center>
+<img src="https://github.com/face-alignment-group-of-ahucs/SHN-based-2D-face-alignment/blob/master/2376images.jpg" width="300" height="450" />
 
-![](https://github.com/face-alignment-group-of-ahucs/SHN-based-2D-face-alignment/blob/master/2376images.jpg)
+## Performance
 
-</div>
+### 300W
+
+| NME | *common*| *challenge* | *full* | *test*|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|2-HG-flip | 4.0 | - | - | - |
+
+### WFLW
+
+| NME |  *test* | *pose* | *illumination* | *occlution* | *blur* | *makeup* | *expression* |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|2-HG | 5.41 | 10.03 | 5.56 | 5.54 | 6.03 | 7.00 | 6.25 |
 
 ## Install
-1. Install Pytorch >= 0.4 following the [official instructions](https://pytorch.org/)
 
-Python3
+* `Python 3`
+
+* `Install Pytorch >= 0.4 following the [official instructions](https://pytorch.org/)`
 
 ## data
-1. You need to download the annotations files which have been processed.
 
-2. You need to download images (e.g., 300W) from official websites and then put them into `data` folder for each dataset.
+You need to download images (e.g., 300W) from official websites and then put them into `data` folder for each dataset.
 
 Your `data` directory should look like this:
 
 ````
 SHN-based-2D-face-alignment
--- experiments
 -- data
    |-- 300w
    |   |-- afw
