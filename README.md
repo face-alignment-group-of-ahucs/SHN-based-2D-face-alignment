@@ -2,20 +2,20 @@
 
 This ia a PyTorch implemention for face alignment with stacked hourglass network (SHN). We use the normalized mean errors (NME), cumulative errors distribution (CED) curve, area under the curve (AUC), and failure rate to measure the landmark location error. This code (SHN-based) have achieved outstanding performance on 300-W and WFLW datasets. 
 
-<div align=center><img src="https://github.com/face-alignment-group-of-ahucs/SHN-based-2D-face-alignment/blob/master/2376images.jpg" width="300" height="450" /></div>
+<div align=center><img src="https://github.com/face-alignment-group-of-ahucs/SHN-based-2D-face-alignment/blob/master/2376images.jpg" width="150" height="225" /></div>
 
 ## Performance
 
 ### 300W
 
 | NME | *common*| *challenge* | *full* | *test*|
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|:--:|
 |2-HG-flip | 4.0 | - | - | - |
 
 ### WFLW
 
 | NME |  *test* | *pose* | *illumination* | *occlution* | *blur* | *makeup* | *expression* |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |2-HG | 5.41 | 10.03 | 5.56 | 5.54 | 6.03 | 7.00 | 6.25 |
 
 ## Install
