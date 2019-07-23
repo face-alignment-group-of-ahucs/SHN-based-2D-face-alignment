@@ -1,12 +1,8 @@
 # Stacked Hourglass Network for 2D face alignment
 
 This ia a pytorch implemention for face alignment with stacked hourglass network (SHN). We use the normalized mean errors (NME), cumulative errors distribution (CED) curve, area under the curve (AUC), and failure rate to measure the landmark location error.
-<div align=center>
 
-![](/home/lx/图片/2376--images.jpg)
-
-</div>
-#### Install
+## Install
 1. Install Pytorch >= 0.4 following the [official instructions](https://pytorch.org/)
 
 Python3
