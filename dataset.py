@@ -15,7 +15,7 @@ import pickle
 from utils import get_imglists, rotatepoints, procrustes, draw_gaussian, enlarge_box, flippoints, get_gtbox, show_image, loadFromPts
 
 
-class WFLW_Dataset(data.Dataset): # torch.utils.data.Dataset is an abstract class representing a dataset. Your custom dataset should inherit Dataset and override these methods
+class Dataset(data.Dataset): # torch.utils.data.Dataset is an abstract class representing a dataset. Your custom dataset should inherit Dataset and override these methods
     def __init__(self, imgdirs, phase, attr, rotate, res=128, gamma=3, target_type='heatmap'):
         
         self.imglists = get_imglists(imgdirs)
