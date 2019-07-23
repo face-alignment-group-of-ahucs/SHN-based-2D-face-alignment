@@ -27,13 +27,13 @@ def main(config):
         trainset=None
         train_loader = None
     else:
-        trainset = WFLW_Dataset(imgdirs_train, config.phase, 'train', config.rotFactor, config.res, config.gamma)
+        trainset = Dataset(imgdirs_train, config.phase, 'train', config.rotFactor, config.res, config.gamma)
         train_loader = data.DataLoader(trainset,
                                        batch_size=config.batch_size,
                                        shuffle=True,
                                        num_workers=config.num_workers,
                                        pin_memory=True)
-    testset = WFLW_Dataset(imgdirs_test_commomset, 'test', config.attr, config.rotFactor, config.res, config.gamma)
+    testset = Dataset(imgdirs_test_commomset, 'test', config.attr, config.rotFactor, config.res, config.gamma)
     test_loader = data.DataLoader(testset,
                                   batch_size=config.batch_size,
                                   num_workers=config.num_workers,
