@@ -40,7 +40,7 @@ SHN-based-2D-face-alignment
 ````  
 
 ## Training and testing 
-* For training, stacks = 1, input resolution = 256 
+* For training, stacks = 1, input resolution = 128 
 ```sh
 python main.py 
 ```
