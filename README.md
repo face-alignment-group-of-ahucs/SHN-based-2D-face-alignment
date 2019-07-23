@@ -16,7 +16,7 @@ This ia a PyTorch implemention for face alignment with stacked hourglass network
 
 | NME(inter-ocular) |  *test* | *pose* | *illumination* | *occlution* | *blur* | *makeup* | *expression* |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|2-HG | 5.41 | 10.03 | 5.56 | 5.54 | 6.03 | 7.00 | 6.25 |
+|2-HG-flip | 5.41 | 10.03 | 5.56 | 5.54 | 6.03 | 7.00 | 6.25 |
 
 ## Install
 
