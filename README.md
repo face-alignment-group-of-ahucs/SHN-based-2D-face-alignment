@@ -48,6 +48,10 @@ python main.py
 ```sh
 python main.py --phase test
 ```
+## Demo
+Use the demo.py to visualize.
+
+
 ## Citation
 If you find this work or code is helpful in your research, please cite:
 ````
